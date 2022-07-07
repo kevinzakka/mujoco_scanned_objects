@@ -32,4 +32,32 @@ If there are any problems loading a particular model in MuJoCo, please raise an 
 
 The 3D assets (obj and png) are licensed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/). The MJCF (XML) files are licensed under the [MIT License](LICENSE).
 
+## Citation
+
+If you use these models in your research, consider citing the original paper:
+
+```bibtex
+@misc{downs2022scannedobjects,
+    url = {https://arxiv.org/abs/2204.11918},
+    author = {Downs, Laura and Francis, Anthony and Koenig, Nate and Kinman, Brandon and Hickman, Ryan and Reymann, Krista and McHugh, Thomas B. and Vanhoucke, Vincent},
+    keywords = {Robotics (cs.RO), Graphics (cs.GR), FOS: Computer and information sciences, FOS: Computer and information sciences},
+    title = {Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items},
+    publisher = {arXiv},
+    year = {2022},
+}
+```
+
+If you're feeling generous, you can also cite this repository:
+
+```bibtex
+@software{zakka2022scannedobjectsmujoco,
+    author = {Zakka, Kevin},
+    month = {7},
+    title = {{Scanned Objects MuJoCo Models}},
+    url = {https://github.com/kevinzakka/mujoco_scanned_objects},
+    version = {0.0.1},
+    year = {2022}
+}
+```
+
 _Disclaimer: This is not affiliated with Scanned Objects or Google Research._
